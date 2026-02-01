@@ -1,2 +1,5 @@
 site_name: My Docs
 site_dir: 'rendered-docs'
+theme:
+  name: material
+  language: ja
