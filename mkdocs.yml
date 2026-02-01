@@ -3,3 +3,6 @@ site_dir: 'rendered-docs'
 theme:
   name: material
   language: ja
+  palette:
+    primary: brown
+    accent: deep orange
