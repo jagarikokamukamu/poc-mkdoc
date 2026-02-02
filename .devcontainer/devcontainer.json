@@ -2,4 +2,12 @@
 	"name": "Python 3",
 	"image": "mcr.microsoft.com/devcontainers/python:2-3.14",
 	"postCreateCommand": "set -eux; curl -LsSf https://astral.sh/uv/install.sh | sh; curl -LsSf https://astral.sh/ruff/install.sh | sh;",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"charliermarsh.ruff",
+				"visualjj.visualjj"
+			]
+		}
+	},
 }
