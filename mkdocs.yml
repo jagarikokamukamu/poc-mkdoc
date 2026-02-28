@@ -25,3 +25,6 @@ plugins:
       include_css: true
       enabled: true
       exclude:
+
+extra_css:
+  - 'stylesheets/page-num.css'
