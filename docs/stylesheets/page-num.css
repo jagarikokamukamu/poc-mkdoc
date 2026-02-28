@@ -1,7 +1,3 @@
-:root {
-  --print-label: "社外秘";
-}
-
 @media print {
   @page {
     /* 右下のマージンボックスに内容を指定 */
