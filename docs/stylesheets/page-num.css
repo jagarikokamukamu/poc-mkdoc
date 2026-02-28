@@ -1,0 +1,15 @@
+:root {
+  --print-label: "社外秘";
+}
+
+@media print {
+  @page {
+    /* 右下のマージンボックスに内容を指定 */
+    @bottom-right {
+      content: counter(page) " / " counter(pages);
+      font-size: 10pt;
+      font-family: sans-serif;
+      color: #666;
+    }
+  }
+}
