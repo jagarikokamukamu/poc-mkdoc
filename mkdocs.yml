@@ -25,6 +25,8 @@ plugins:
       include_css: true
       enabled: true
       exclude:
+  - print_label:
+      label_type: "shagaihi" # "shagaihi" か "hi" を指定。表示しない場合は "none"
 
 extra_css:
   - 'stylesheets/page-num.css'
