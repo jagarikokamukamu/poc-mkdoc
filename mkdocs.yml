@@ -28,3 +28,4 @@ plugins:
 
 extra_css:
   - 'stylesheets/page-num.css'
+  - 'stylesheets/shagaihi.css'
